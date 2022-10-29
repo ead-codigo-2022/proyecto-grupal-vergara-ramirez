@@ -1,3 +1,20 @@
+body{
+    margin: 0;
+}
+.cabezote{
+    height: 100vh;
+}
+.top{
+    border-bottom: 1px solid white;
+    box-shadow: 0 0 6px black;
+}
+.conteiner{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .footer {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
     color:black;
