@@ -145,14 +145,32 @@ header a:hover{
 }
 .form__title{
   text-align: center;
-  font-size: ;
+  font-size:medium;
 }
 .form__input{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  padding: .8em 1em;
+  outline: none;
+  border: none;
+  border-radius: 0.2em;
 
+}
+.form__input--message{
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: .5em;
 }
 .form__cta{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color:rgb(45,138,103) ;
+  color:white;
+  border:none;
+  font-weight:300 ;
+  padding: .7em 0;
+  border-radius: .2em;
+  cursor: pointer;
+
 }
 
 
@@ -168,7 +186,7 @@ footer p{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
   font-size: small;
-  text-align: center;
+  text-align:end;
 }
 
 footer .container{
