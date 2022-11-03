@@ -4,71 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deforestación</title>
+    <title>Proyecto</title>
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div class="container-logo">
-            
-                <img src="images/logo.png" alt="Logo" widht="65" height="65" >
-            
+        <div class="container">
+            <a class="logo" href="index.html"><img src="images/logo.png" alt="logo" width="65px" height="65px"></a>
+            <nav>
+                <a href="#hero">Inicio</a>
+                <a href="#problematica">Problemática</a>
+                <a href="#sobre-nosotros">Sobre Nosotros</a>
+                <a href="#contacto">Contacto</a>  
+            </nav>
         </div>
-        <nav >
-            <a href="#" class="nav-link">Inicio</a>
-            <a href="#" class="nav-link">Problemática</a>
-            <a href="#" class="nav-link">Sobre Nosotros</a>
-            <a href="#" class="nav-link">Contacto</a>
-        </nav>
-    </header>   
-    <section class="cuerpo">
-        <div class="services_body">
-            <article class="service">
-                <h1>Inicio</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro magni doloremque voluptatibus ab voluptatum! Molestiae, accusamus animi, praesentium quod dignissimos et esse aliquam nisi tenetur deleniti itaque veniam recusandae reiciendis modi, debitis consequatur eveniet culpa corporis. Quaerat possimus incidunt corporis minima ducimus, natus excepturi veritatis qui repellat expedita porro dolore ipsa laboriosam ab a omnis! Harum, eius odit doloribus adipisci pariatur quibusdam cumque ipsam? Velit deleniti assumenda magni officia aut architecto placeat reprehenderit similique. A fuga nulla necessitatibus, dolorem, possimus deserunt cupiditate quas impedit aut amet quaerat iusto voluptatibus consequuntur culpa magnam, ex ad quae mollitia animi omnis dolore expedita!</p>
+    </header>
+    <section id="hero">
+        <h1>Deforestación bosques nativos <br>en Chile</h1>
+    </section>
 
-            </article>
-            <article class="chapter">
-                <h2>Deforestación de Bosques Nativos en Chile</h2>
-                <p>Podemos definir la deforestación como el proceso de despojar un terreno forestal de sus plantas
-                    y árboles, es decir de su vegetación. Los bosques cumplen valiosas funciones en la naturaleza y
-                    perderlos es muy perjudicial para el medio ambiente y, además, contribuye al cambio climático, ya
-                    que los árboles secuestran carbono mientras crecen. Solo en algunos casos muy concretos este
-                    proceso puede ser beneficioso para el planeta.
-                    Así, la deforestación se da cuando hay una tala de árboles masiva o descontrolada. Esta produce
-                    grandes cambios en el ecosistema, como veremos más adelante.
-                    Entre las principales causas de la deforestación podemos encontrar algunas de la mano del ser
-                    humano y otras por fenómenos naturales. Solo podemos evitar, solucionar y controlar las primeras
-                    y mejorando el estado actual del planeta podemos ayudar a reequilibrar las segundas.</p>
-                    <p>Causas de la deforestación:
-                        Las actividades del ser humano son la principal causa de la deforestación y, también, es la
-causa más grave al ser evitable. Entre las principales causas de la deforestación que
-produce el ser humano destacan:
-La tala de árboles indiscriminada o mal gestionada
-                    </p>
+    <section id="problematica">
+        <div class="container">
+            <h2>Problemática</h2>
+            <div class="problematica">
+                <div class="carta">
+                    <h3>¿Qué es la deforestación?</h3>
+                    <a href="#" class="boton">+Info</a>
+                </div>
+              
+                <div class="carta">
+                    <h3>Causas</h3>
+                    <a href="#" class="boton">+Info</a>
+                    
+                </div>
+                <div class="carta">
+                    <h3>En Chile</h3>
+                    <a href="#" class="boton">+Info</a>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section id="sobre-nosotros">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
 
-            </article>
-            <section class="imagenes">
-                <article class="gallery">
-                    <div class="img-a">
-                        <img src="images/deforestacion-620x330.jpg" alt="Bosque talado">
-                    </div>
-
-            <article class="chapter">
-                <h2>Sobre Nosotros</h2>
-                <p>Somos Antara Ramírez y Mayte Vergara, estudiantes de tercer año de diseño en la Escuela de Arquitectura y Diseño de la PUCV. Esta página es nuestro proyecto final del curso diseño desde el código 2022.
-                    El objetivo de esta página es informar sobre un problema medioambiental utilizando los conocimientos sobre html y css visto en clases.
-                
-
-            </article>
-            
-            
-         
+                <h2>Sobre Nosotros</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis a autem sed dignissimos commodi, voluptas incidunt voluptatibus cum, quia neque nulla consequatur laborum accusamus, perspiciatis odio nemo minus vel!</p>
+            </div>
         </div>
     </section>
 
-    <footer class="footer">&copy;Antara Ramírez|Mayte Vergara/Diseño desde el código 2022</footer>
+    <section id="contacto">
+        <form class="form">
+            <div class="form__container">
+              <h2 class="form__container">Contáctanos</h2>
+              <input type="text" class="form__input" placeholder="Nombre:">
+              <input type="email" class="form__input" placeholder="Email:">
+              <textarea class="form__input form__input--message" placeholder="Mensaje:"></textarea>
+              <input type="submit" value="Enviar" class="form__cta">  
+            </div>    
+          </form>
+    </section>
+    <footer>
+        <div class="container2">
+          <p>&copy;Antara Ramírez / Mayte Vergara|Diseño desde el código 2022</p>
+        </div>    
+      </footer>
 
+   
+
+    
+   
+    
 </body>
 </html>
